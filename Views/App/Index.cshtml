@@ -1,0 +1,83 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Home page";
+}
+    <div class="product-info">
+        <!--<img src="/img/VanGogh.jpg" />-->
+        <img src="~/img/100924569_1579396755551270_5482722102068903936_n.jpg" width="500" height="300" alt="Honda" />
+        <!--<img src="img/moto edit.jpg" width="400" height="200" alt="Honda" />-->
+        <h3>MotorBIKE</h3>
+        <ul class="product-p">
+            <li>Price: 100000.00</li>
+            <li>Artist: Halado</li>
+            <li>Title: Pure FUN</li>
+            <li>Description: Best Bike in the World</li>
+        </ul>
+        <button id="buyButton">BUY</button>
+        <!--<img src="img/SK-C-597.jpg" />-->
+    </div>
+
+    <div id="theForm">
+        <form>
+            <lable>Name: </lable>
+            <br />
+            <input />
+            <br />
+            <lable>Email</lable>
+            <br />
+            <input type="email" />
+            <br />
+            <lable>Subject:</lable>
+            <br />
+            <input type="text" />
+            <br />
+            <lable>Message:</lable>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+
+    <div>
+        <div id="logginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remember me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Login" />
+            </div>
+
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <!--<form>
+        <lable>Username</lable>
+        <br />
+        <input />
+        <br />
+        <lable>Password</lable>
+        <br />
+        <input type="password" />
+    </form>-->
+    <!--<p>This is an <strong>website</strong> <a href="http://xnxx.com">where</a> you can buy everything!</p>
+    <ol>
+        <li>1.</li>
+        <li>2.</li>
+        <li>3.</li>
+        <li>4.</li>
+    </ol>-->

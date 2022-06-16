@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shop: @ViewBag.Title </title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script src="js/site.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to MotorWorld</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="App" asp-action="Index">Home</a></li>
+                <li><a sp-controller="App" asp-action="Contact">Contact</a></li>
+                <li><a sp-controller="App" asp-action="About">About</a></li>
+            </ul>
+        </menu>
+    
+    </header>
+
+    <section>
+        <h2> @ViewBag.Title</h2>
+        @RenderBody()
+    </section>
+
+    <footer>Copyright 2022 MotorWorld LTD</footer>
+
+
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <!--<form>
+        <lable>Username</lable>
+        <br />
+        <input />
+        <br />
+        <lable>Password</lable>
+        <br />
+        <input type="password" />
+    </form>-->
+    <!--<p>This is an <strong>website</strong> <a href="http://xnxx.com">where</a> you can buy everything!</p>
+    <ol>
+        <li>1.</li>
+        <li>2.</li>
+        <li>3.</li>
+        <li>4.</li>
+    </ol>-->
+
+
+</body>
+</html>
